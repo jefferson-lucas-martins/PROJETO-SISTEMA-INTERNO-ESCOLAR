@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imagens/logo.png">
+    <title>Cadastrar Novo Funcionário</title>
+</head>
+
+<style>
+body{ background-color: rgb(142, 208, 238);}
+
+button:hover{
+    background-color: aqua;
+}
+
+
+</style>
+<body>
+    <center>
+        <img src="imagens/logo.png" width="100" alt="">
+    <h1>Cadastrar Funcionário</h1>
+    &nbsp;&nbsp;&nbsp;&nbsp;<label for="campo_nome">Nome:</label>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input id= "campo_nome" type="text" placeholder="Digite seu nome">
+
+<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<label for="campo_funcao">Função:</label>
+    &nbsp;&nbsp;&nbsp;
+    <input id= "campo_funcao" type="text" placeholder="Digite a Função">
+
+    <br><br>
+    <label for="campo_permissao">Permissão:</label>
+
+    <select name="Permissão" id="campo_permissao">
+        <option selected disabled value="">Selecione a Permissão</option>
+        <option value="Administrador">Administrador</option>
+        <option value="Usuário">Usuário</option>
+    </select>
+
+    <br><br><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="paginaInicial.html"><button>Voltar</button></a>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button>Cadastrar</button>
+</center>
+</body>
+</html>

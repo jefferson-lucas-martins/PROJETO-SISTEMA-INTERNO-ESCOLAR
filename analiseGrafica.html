@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imagens/logo.png">
+    <title>Análise Gráfica</title>
+</head>
+
+<style>
+body{ background-color: rgb(142, 208, 238);}
+
+button:hover{
+    background-color: aqua;
+}
+
+
+</style>
+<body>
+    <center>
+        <img src="imagens/logo.png" width="100" alt="">
+    <h1>Análise Gráfica</h1>
+
+    
+<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<label for="campo_serieturma">Série / Turma:</label>
+    &nbsp;&nbsp;&nbsp;
+    <select name="Série / Turma:" id="campo_serieturma">
+        <option selected disabled value="">Selecione a Série / Turma</option>
+        <option value="1ª Série A">1ª Série A</option>
+        <option value="2ª Série B">2ª Série B</option>
+        <option value="3ª Série C">3ª Série C</option>
+        </select>
+    <br><br>
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;<label for="campo_aluno">Aluno:</label>
+    &nbsp;&nbsp;&nbsp;
+    <select name="Aluno:" id="campo_aluno">
+        <option selected disabled value="">Selecione o Aluno</option>
+        <option value="Antenor Simão">Antenor Simão</option>
+        <option value="Jefferson Lucas">Jefferson Lucas</option>
+        <option value="Samara Ferreira">Samara Ferreira</option>
+        </select>
+    <br><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="campo_ocorrencia">Ocorrência:</label>
+    &nbsp;&nbsp;&nbsp;
+    <select name="Ocorrência:" id="campo_ocorrencia">
+        <option selected disabled value="">Selecione a Ocorrência</option>
+        <option value="Todas as Ocorrências">Todas as Ocorrências.</option>
+        <option value="Chegar atrasdo.">Chegar atrasdo.</option>
+        <option value="Não fazer atividade.">Não fazer atividade.</option>
+        <option value="Dormir durante a aula.">Dormir durante a aula.</option>
+        <option value="Utilizar celular em sala de aula.">Utilizar celular em sala de aula.</option>
+        </select>
+    
+        <br><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <label for="campo_data_inicial">Data Início:</label>
+    &nbsp;&nbsp;&nbsp;
+    <input id= "campo_data_inicial" type="datetime-local">
+
+    <br><br>
+   
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <label for="campo_data_final">Data Final:</label>
+    &nbsp;&nbsp;&nbsp;
+    <input id= "campo_data_final" type="datetime-local">
+
+ 
+    <br><br><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="paginaInicial.html"><button>Voltar</button></a>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button>Consultar</button>
+</center>
+</body>
+</html>
