@@ -1,0 +1,99 @@
+button:hover{background-color: aqua;border-radius: 10px;padding: 5px;
+text-decoration: none;
+
+}
+
+button{background-color: rgb(223, 233, 233);border-radius: 10px;padding: 5px;
+    text-decoration: none;}
+    
+
+
+body{ background-color: rgb(142, 208, 238);
+
+    
+
+    margin: 0;
+                    background-color: rgb(142, 208, 238);
+   
+}
+
+h1{color: rgb(37, 37, 167);
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+ }
+ h2{color: rgb(37, 37, 167);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+ }
+ 
+ .sair{
+
+    background-color: rgb(120, 185, 223);
+    padding: 0px;
+ }
+    
+ .logoff{float: right;
+    margin-top: 10px;
+margin-right: 20px;
+text-transform: uppercase;
+text-decoration: none;
+border-radius: 5px;
+
+ }
+
+ .logoff:hover{ 
+
+    border-radius: 5px;
+    margin-top: 10px;
+margin-right: 20px;
+    background-color: rgb(245, 11, 11);
+    text-transform: uppercase;
+    color: rgb(28, 194, 245);
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: larger;
+
+ }
+
+ li{ display: inline;
+    margin-top: 0px;
+}   
+
+li a, .listabutao{ text-decoration: none;
+    padding: 10px;
+    text-transform: uppercase;
+    display: inline-block;
+
+
+}
+   li a:hover, .listasuspensa:hover .listabutao{ text-decoration: none;
+    padding: 5px;
+    border-radius: 10px; 
+    border-color: blue;
+    background-color: aqua;
+    text-transform: uppercase;
+    color: rgb(65, 27, 202);
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+li.listasuspensa{
+display: inline-block;
+
+}
+.lista{
+    position: absolute;
+    background-color: rgb(120, 185, 223);border-radius: 10px;
+    width: 150px;
+    display: none;
+}
+.lista a{
+    color: rgb(65, 27, 202);
+    display:block;
+    text-align: left;
+}
+.listasuspensa:hover .lista{
+    display: block;
+}
+#campo_lembrar{background-color: blue;}
