@@ -98,3 +98,10 @@ display: inline-block;
     display: block;
 }
 #campo_lembrar{background-color: blue;}
+
+.esqueceusenha{
+    text-decoration: none;color: black;}
+
+    .esqueceusenha:hover{
+        text-decoration:underline; color: blue;
+    }   
