@@ -17,3 +17,6 @@ function cadastradoSucesso(){
     
     function excluido(){
       alert("Excluído com Sucesso")};
+
+       function sair(){
+      confirm("Deseja realmente sair do sistema")};
