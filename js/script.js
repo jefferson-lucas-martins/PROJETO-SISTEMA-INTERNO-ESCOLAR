@@ -19,4 +19,8 @@ function cadastradoSucesso(){
       alert("Excluído com Sucesso")};
 
        function sair(){
-      confirm("Deseja realmente sair do sistema")};
+     alert("VOCÊ FOI DESLOGADO")};
+
+     function enviaremail(){
+    alert("E-mail enviado com sucesso!")
+     };
